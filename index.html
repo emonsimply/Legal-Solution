@@ -46,7 +46,7 @@
 
 <body class="poppins-font">
 
-  <header>
+  <header class="md:container md:mx-auto">
     <nav class="navbar bg-base-100">
       <div class="navbar-start">
         <div class="dropdown">
@@ -56,7 +56,8 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
             </svg>
           </div>
-          <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-gray-500">
+          <ul tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-gray-500">
             <li><a>Home</a></li>
             <li><a>Services</a></li>
             <li><a>Cases</a></li>
@@ -79,6 +80,20 @@
         <a class="btn bg-Justice-primary text-white">Free Consultation</a>
       </div>
     </nav>
+    <!-- Banner -->
+    <div class="hero min-h-screen my-4 " style="background-image: url(images/banner.png);">
+      <div class="hero-overlay bg-opacity-60  bg-gradient-to-t from-black to-black opacity-10"></div>
+      <div class="hero-content text-neutral-content text-center ">
+        <div class="max-w-2xl">
+          <h1 class="mb-5 text-7xl font-bold eb-garamond-font text-white">We Provide Effective Legal Solutions</h1>
+          <p class="mb-5">
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+          </p>
+          <input type="text" placeholder="Search your services" class="input w-full max-w-[32rem]" />
+          <button class="btn bg-Justice-primary px-8 text-white">Search</button>
+        </div>
+      </div>
+    </div>
   </header>
 
   <main>
